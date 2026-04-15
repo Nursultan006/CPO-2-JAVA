@@ -10,7 +10,7 @@ public class BankQueue {
         Queue<String> queue = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
 
-        // 🔥 Таймер (каждую 1 минуту = 60000 мс)
+        //  Таймер (каждую 1 минуту = 60000 мс)
         Timer timer = new Timer();
 
         timer.schedule(new TimerTask() {
